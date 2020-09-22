@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vincent Chen</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Vincent Chen</h1>
+            </div>
+
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot-1" class="browser-dot"></div>
+                        <div id="dot-2" class="browser-dot"></div>
+                        <div id="dot-3" class="browser-dot"></div>
+                    </div>
+
+                    <ul id="navigation">
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="left-column">
+                    <img id="profile_pic" src="images/profile_pose.jpeg">
+                    <h5 style="text-align: center;line-height: 0;">Personalize Theme Below</h5>
+
+                    <div id="theme-options-wrapper">
+                        <div data-mode="light" id="light-mode" class="theme-select"></div>
+
+                        <div data-mode="blue" id="blue-mode" class="theme-select"></div>
+
+                        <div data-mode="green" id="green-mode" class="theme-select"></div>
+
+                        <div data-mode="purple" id="purple-mode" class="theme-select"></div>
+
+                        <div data-mode="vice" id="vice" class="theme-select"></div>
+                    </div>
+
+                    <p id="select-note">*Theme options will be saved for <br> your next visit</p>
+                </div>
+
+                <div class="right-column">
+                    <div id="shadow-1" class="shadow">
+                        <div id="shadow-2" class="shadow">
+                            <div id="preview">
+                                <div id="corner-tl" class="corner"></div>
+                                <div id="corner-tr" class="corner"></div>
+                                <h3>What I'm up to</h3>
+                                <p>Learning web development technologies and different frameworks. Soon to start second year at the University of Waterloo.</p>
+                                <div id="corner-br" class="corner"></div>
+                                <div id="corner-bl" class="corner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h3>About Me</h3>
+                    <p>I'm currently an Electrical Engineering student at the University of Waterloo, with a wide variety of interests.
+                        Currently developing my front-end programming knowledge using online tutorials. Look forward to my future projects!
+                    </p>
+                    <p>Some other hobbies of mine include video gaming, going on bike trips, guitar, table tennis and I'm currently teaching myself Korean!</p>
+                </div>
+
+                <div class="social-section">
+                    <h3>Check me out!</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/vincentchen0210/" id="linkedin" class="social-button" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/VincentChen0210" id="github" class="social-button" target="_blank">GitHub</a>
+                        <a href="#" id="Resume" class="social-button">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center;">Projects</h3>
+
+            <div class="post-wrapper">
+                <div>  
+                    <div class="post">
+                        <img class="thumbnail" src="images/filler.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Incoming project</h6>
+                            <p class="post-intro">Will be filled shortly</p>
+
+                            <a href="post.html">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/filler.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Incoming project</h6>
+                            <p class="post-intro">Will be filled shortly</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/filler.png">
+                        <div class="post-preview">
+                            <h6 class="post-title">Incoming project</h6>
+                            <p class="post-intro">Will be filled shortly</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+                
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="Send">
+
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
