@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/VincentChen0210/Portfolio-Website/issues"
   },
-  "homepage": "https://github.com/VincentChen0210/Portfolio-Website#readme",
+  "homepage": "https://VincentChen0210.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^3.1.0"
   }
